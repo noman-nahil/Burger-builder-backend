@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 const joi = require('joi');
 const { Schema, model } = require('mongoose');
 
-const userSchema = schema({
+const userSchema = Schema({
     email: {
         type: String,
         required: true,
