@@ -24,7 +24,7 @@ const orderSchema = Schema({
     customer: {
         deliveryAddress: String,
         phone: String,
-        paymenType: String,
+        paymentType: String,
     },
     price: Number,
     orderTime: { type: Date, default: Date.now }
